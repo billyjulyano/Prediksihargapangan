@@ -1,0 +1,377 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 144rem;
+}.kalender-besar-1-uSf {
+  box-sizing: border-box;
+  padding: 24.4rem 12rem 8.3rem 12rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.kalender-besar-1-uSf .auto-group-na3y-Rfu {
+  margin: 0rem 17.1rem 5.7rem 0rem;
+  box-sizing: border-box;
+  padding: 26.5rem 5.7rem 3rem 5.7rem;
+  height: 61.6rem;
+  display: flex;
+  align-items: flex-end;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/image-1-bg.png');
+  border-radius: 4.8rem;
+  flex-shrink: 0;
+}
+.kalender-besar-1-uSf .auto-group-na3y-Rfu .auto-group-bvef-iQ7 {
+  margin-right: 6.6rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.kalender-besar-1-uSf .auto-group-na3y-Rfu .auto-group-bvef-iQ7 .rp15050-fKM {
+  margin-bottom: 5.9rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.2125;
+  color: #9e9d9d;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.kalender-besar-1-uSf .auto-group-na3y-Rfu .auto-group-bvef-iQ7 .rp15050-PFM {
+  margin-bottom: 5rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.2125;
+  color: #9e9d9d;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.kalender-besar-1-uSf .auto-group-na3y-Rfu .auto-group-bvef-iQ7 .rp15200-uzP {
+  margin-bottom: 5.9rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.2125;
+  color: #9e9d9d;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.kalender-besar-1-uSf .auto-group-na3y-Rfu .auto-group-bvef-iQ7 .rp15050-eBH {
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.2125;
+  color: #9e9d9d;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.kalender-besar-1-uSf .auto-group-na3y-Rfu .auto-group-qwvt-aqd {
+  margin-right: 6.6rem;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.kalender-besar-1-uSf .auto-group-na3y-Rfu .auto-group-qwvt-aqd .rp15070-vuV {
+  margin-bottom: 6rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.2125;
+  color: #9e9d9d;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.kalender-besar-1-uSf .auto-group-na3y-Rfu .auto-group-qwvt-aqd .rp15100-GyM {
+  margin-bottom: 5rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.2125;
+  color: #9e9d9d;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.kalender-besar-1-uSf .auto-group-na3y-Rfu .auto-group-qwvt-aqd .rp15300-pjy {
+  margin-bottom: 5.9rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.2125;
+  color: #9e9d9d;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.kalender-besar-1-uSf .auto-group-na3y-Rfu .auto-group-qwvt-aqd .rp15100-Mzo {
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.2125;
+  color: #9e9d9d;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.kalender-besar-1-uSf .auto-group-na3y-Rfu .auto-group-aopm-WMu {
+  margin-right: 6.6rem;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.kalender-besar-1-uSf .auto-group-na3y-Rfu .auto-group-aopm-WMu .rp15100-ej1 {
+  margin-bottom: 6.3rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.2125;
+  color: #9e9d9d;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.kalender-besar-1-uSf .auto-group-na3y-Rfu .auto-group-aopm-WMu .rp15100-bPM {
+  margin-bottom: 4.9rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.2125;
+  color: #9e9d9d;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.kalender-besar-1-uSf .auto-group-na3y-Rfu .auto-group-aopm-WMu .rp15200-99y {
+  margin-bottom: 5.9rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.2125;
+  color: #9e9d9d;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.kalender-besar-1-uSf .auto-group-na3y-Rfu .auto-group-aopm-WMu .rp15050-gfh {
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.2125;
+  color: #9e9d9d;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.kalender-besar-1-uSf .auto-group-na3y-Rfu .auto-group-4j5d-RtB {
+  margin-right: 6.5rem;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.kalender-besar-1-uSf .auto-group-na3y-Rfu .auto-group-4j5d-RtB .rp15150-yeo {
+  margin-bottom: 6.1rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.2125;
+  color: #9e9d9d;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.kalender-besar-1-uSf .auto-group-na3y-Rfu .auto-group-4j5d-RtB .rp15150-XAX {
+  margin-bottom: 5rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.2125;
+  color: #9e9d9d;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.kalender-besar-1-uSf .auto-group-na3y-Rfu .auto-group-4j5d-RtB .rp15150-G87 {
+  margin-bottom: 5.9rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.2125;
+  color: #9e9d9d;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.kalender-besar-1-uSf .auto-group-na3y-Rfu .auto-group-4j5d-RtB .rp15000-CnT {
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.2125;
+  color: #9e9d9d;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.kalender-besar-1-uSf .auto-group-na3y-Rfu .auto-group-rbkd-Z7D {
+  margin-right: 6.5rem;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.kalender-besar-1-uSf .auto-group-na3y-Rfu .auto-group-rbkd-Z7D .rp15100-hjD {
+  margin-bottom: 5.9rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.2125;
+  color: #9e9d9d;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.kalender-besar-1-uSf .auto-group-na3y-Rfu .auto-group-rbkd-Z7D .rp15200-FEw {
+  margin-bottom: 5.1rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.2125;
+  color: #9e9d9d;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.kalender-besar-1-uSf .auto-group-na3y-Rfu .auto-group-rbkd-Z7D .rp15100-Prw {
+  margin-bottom: 5.9rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.2125;
+  color: #9e9d9d;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.kalender-besar-1-uSf .auto-group-na3y-Rfu .auto-group-rbkd-Z7D .rp15000-jA7 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.2125;
+  color: #9e9d9d;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.kalender-besar-1-uSf .auto-group-na3y-Rfu .auto-group-bhnf-Tro {
+  margin-right: 6.5rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.kalender-besar-1-uSf .auto-group-na3y-Rfu .auto-group-bhnf-Tro .rp15000-1dR {
+  margin-bottom: 5.3rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.2125;
+  color: #9e9d9d;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.kalender-besar-1-uSf .auto-group-na3y-Rfu .auto-group-bhnf-Tro .rp15050-MSP {
+  margin-bottom: 5.9rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.2125;
+  color: #9e9d9d;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.kalender-besar-1-uSf .auto-group-na3y-Rfu .auto-group-bhnf-Tro .rp15300-thD {
+  margin-bottom: 5rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.2125;
+  color: #9e9d9d;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.kalender-besar-1-uSf .auto-group-na3y-Rfu .auto-group-bhnf-Tro .rp15100-Em5 {
+  margin-bottom: 5.9rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.2125;
+  color: #9e9d9d;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.kalender-besar-1-uSf .auto-group-na3y-Rfu .auto-group-bhnf-Tro .rp15000-nXh {
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.2125;
+  color: #9e9d9d;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.kalender-besar-1-uSf .auto-group-na3y-Rfu .auto-group-vnzb-Y15 {
+  margin-bottom: 7.9rem;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.kalender-besar-1-uSf .auto-group-na3y-Rfu .auto-group-vnzb-Y15 .rp15000-GBy {
+  margin-bottom: 5.1rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.2125;
+  color: #9e9d9d;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.kalender-besar-1-uSf .auto-group-na3y-Rfu .auto-group-vnzb-Y15 .rp15000-1QT {
+  margin-bottom: 5.9rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.2125;
+  color: #9e9d9d;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.kalender-besar-1-uSf .auto-group-na3y-Rfu .auto-group-vnzb-Y15 .rp15250-A2T {
+  margin-bottom: 5.1rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.2125;
+  color: #9e9d9d;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.kalender-besar-1-uSf .auto-group-na3y-Rfu .auto-group-vnzb-Y15 .rp15050-ho5 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.2125;
+  color: #9e9d9d;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.kalender-besar-1-uSf .frame-cQF {
+  margin-left: 16.2rem;
+  width: 2.4rem;
+  height: 2.4rem;
+  position: relative;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}

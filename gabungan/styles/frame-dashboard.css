@@ -1,0 +1,283 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 152.2rem;
+}.frame-dashboard-vby {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.frame-dashboard-vby .frame-header-g5M {
+  margin-left: 0.3rem;
+  width: 151.9rem;
+  height: 25.7rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.frame-dashboard-vby .frame-header-g5M .latar-header-Q1M {
+  width: 150.9rem;
+  height: 24.5rem;
+  position: absolute;
+  left: 0;
+  top: 1.2rem;
+  background-color: #ffffff;
+}
+.frame-dashboard-vby .frame-header-g5M .logo-btp-8CF {
+  width: 28.9rem;
+  height: 19rem;
+  position: absolute;
+  left: 119.7rem;
+  top: 5.8rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.frame-dashboard-vby .frame-header-g5M .logo-bapanas-STq {
+  width: 10.8rem;
+  height: 11.5rem;
+  position: absolute;
+  left: 86.9rem;
+  top: 5.8rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.frame-dashboard-vby .frame-header-g5M .logo-aic-Aud {
+  width: 32.9rem;
+  height: 23.1rem;
+  position: absolute;
+  left: 103.6rem;
+  top: 0;
+  object-fit: cover;
+  vertical-align: top;
+}
+.frame-dashboard-vby .frame-header-g5M .logo-telkom-WyV {
+  width: 12.6rem;
+  height: 12.8rem;
+  position: absolute;
+  left: 136.5rem;
+  top: 5.2rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.frame-dashboard-vby .frame-header-g5M .batas-header-2-3iX {
+  width: 73.5rem;
+  height: 2.5rem;
+  position: absolute;
+  left: 78.4rem;
+  top: 19.8rem;
+  background-color: #92f662;
+}
+.frame-dashboard-vby .frame-header-g5M .batas-header-1-BZq {
+  width: 78.4rem;
+  height: 2.7rem;
+  position: absolute;
+  left: 0;
+  top: 19.7rem;
+  background-color: #38a33c;
+}
+.frame-dashboard-vby .frame-header-g5M .badan-pangan-nasional-X7u {
+  width: 22.9rem;
+  height: 2.5rem;
+  position: absolute;
+  left: 20.9rem;
+  top: 19.8rem;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.2125;
+  color: #ffffff;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.frame-dashboard-vby .frame-header-g5M .line-header-QhV {
+  width: 0;
+  height: 11rem;
+  position: absolute;
+  left: 78.4rem;
+  top: 6.1rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.frame-dashboard-vby .frame-header-g5M .direktorat-stabilisasi-pasokan-dan-harga-pangan-kedeputian-bidang-ketersediaan-dan-stabilisasi-pangan-kmM {
+  width: 63.3rem;
+  height: 9rem;
+  position: absolute;
+  left: 10.5rem;
+  top: 9.2rem;
+  font-size: 2.2rem;
+  font-weight: 400;
+  line-height: 1.3575;
+  color: #14651c;
+  font-family: Bree Serif, 'Source Sans Pro';
+}
+.frame-dashboard-vby .auto-group-xakq-R6o {
+  box-sizing: border-box;
+  padding: 3rem 6.5rem 7.7rem 12.4rem;
+  width: 151.2rem;
+  background: linear-gradient(203.19deg, #38a43c 68.64%, #d9d9d9 87.36%);
+  flex-shrink: 0;
+}
+.frame-dashboard-vby .auto-group-xakq-R6o .prediksi-harga-pangan-nasional-LUf {
+  margin: 0rem 0rem 3.1rem 7.7rem;
+  max-width: 26.1rem;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.2125;
+  color: #ffffff;
+  font-family: Inter, 'Source Sans Pro';
+}
+.frame-dashboard-vby .auto-group-xakq-R6o .auto-group-uh9z-SGo {
+  width: 100%;
+  height: 56.9rem;
+  position: relative;
+  background-color: #fff6f6;
+  border-radius: 5rem;
+}
+.frame-dashboard-vby .auto-group-xakq-R6o .auto-group-uh9z-SGo .line-tengah-BVH {
+  width: 0.2958rem;
+  height: 0.1rem;
+  position: absolute;
+  left: 68.3rem;
+  top: 8.5rem;
+  background-color: #000000;
+}
+.frame-dashboard-vby .auto-group-xakq-R6o .auto-group-uh9z-SGo .frame-pemilihan-jenis-pangan-hyR {
+  box-sizing: border-box;
+  padding: 0.3rem 0.8rem 0.4rem 2.2rem;
+  width: 23.7rem;
+  height: 3.1rem;
+  position: absolute;
+  left: 8.7rem;
+  top: 5.2rem;
+  display: flex;
+  align-items: center;
+  background-color: #d9d9d9;
+  border-radius: 1.2rem;
+}
+.frame-dashboard-vby .auto-group-xakq-R6o .auto-group-uh9z-SGo .frame-pemilihan-jenis-pangan-hyR .select-one-Btb {
+  margin: 0.1rem 9.8rem 0rem 0rem;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.2125;
+  font-style: italic;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.frame-dashboard-vby .auto-group-xakq-R6o .auto-group-uh9z-SGo .frame-pemilihan-jenis-pangan-hyR .frame-hM9 {
+  width: 2.4rem;
+  height: 2.4rem;
+  position: relative;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.frame-dashboard-vby .auto-group-xakq-R6o .auto-group-uh9z-SGo .auto-group-z3dr-dVh {
+  width: 117.3rem;
+  height: 36.4rem;
+  position: absolute;
+  left: 10.1rem;
+  top: 11.3rem;
+  display: flex;
+  align-items: center;
+}
+.frame-dashboard-vby .auto-group-xakq-R6o .auto-group-uh9z-SGo .auto-group-z3dr-dVh .frame-harga-beras-AEj {
+  margin-right: 13.7rem;
+  width: 51.1rem;
+  height: 100%;
+  position: relative;
+  flex-shrink: 0;
+}
+.frame-dashboard-vby .auto-group-xakq-R6o .auto-group-uh9z-SGo .auto-group-z3dr-dVh .frame-harga-beras-AEj .latar-harga-beras-6eB {
+  width: 49.3rem;
+  height: 36.4rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #a6a2a2;
+  border-radius: 5.3rem;
+}
+.frame-dashboard-vby .auto-group-xakq-R6o .auto-group-uh9z-SGo .auto-group-z3dr-dVh .frame-harga-beras-AEj .gambar-beras-1-de7 {
+  width: 38.2rem;
+  height: 30.4rem;
+  cursor: pointer;
+  position: absolute;
+  left: 12.9rem;
+  top: 6rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.frame-dashboard-vby .auto-group-xakq-R6o .auto-group-uh9z-SGo .auto-group-z3dr-dVh .frame-harga-beras-AEj .harga-beras-premium-Mq1 {
+  width: 23.9rem;
+  height: 7.8rem;
+  position: absolute;
+  left: 4.3rem;
+  top: 1.9rem;
+  font-size: 3.2rem;
+  font-weight: 800;
+  line-height: 1.2125;
+  color: #fcf3f3;
+  font-family: Inter, 'Source Sans Pro';
+}
+.frame-dashboard-vby .auto-group-xakq-R6o .auto-group-uh9z-SGo .auto-group-z3dr-dVh .frame-harga-beras-AEj .rp-15000-sYT {
+  width: 16.2rem;
+  height: 3.9rem;
+  position: absolute;
+  left: 2.2rem;
+  top: 23.6rem;
+  font-size: 3.2rem;
+  font-weight: 800;
+  line-height: 1.2125;
+  color: #ffffff;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.frame-dashboard-vby .auto-group-xakq-R6o .auto-group-uh9z-SGo .auto-group-z3dr-dVh .frame-grafik-P11 {
+  width: 52.5rem;
+  height: 100%;
+  position: relative;
+  flex-shrink: 0;
+}
+.frame-dashboard-vby .auto-group-xakq-R6o .auto-group-uh9z-SGo .auto-group-z3dr-dVh .frame-grafik-P11 .latar-grafik-8DV {
+  width: 49.3rem;
+  height: 36.4rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #a6a2a2;
+  border-radius: 5.3rem;
+}
+.frame-dashboard-vby .auto-group-xakq-R6o .auto-group-uh9z-SGo .auto-group-z3dr-dVh .frame-grafik-P11 .gambar-beras-2-sB5 {
+  width: 38.2rem;
+  height: 30.4rem;
+  cursor: pointer;
+  position: absolute;
+  left: 14.3rem;
+  top: 6rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.frame-dashboard-vby .auto-group-xakq-R6o .auto-group-uh9z-SGo .auto-group-z3dr-dVh .frame-grafik-P11 .grafik-beras-premium-CDM {
+  width: 23.9rem;
+  height: 7.8rem;
+  position: absolute;
+  left: 4.2rem;
+  top: 1.9rem;
+  font-size: 3.2rem;
+  font-weight: 800;
+  line-height: 1.2125;
+  color: #fcf3f3;
+  font-family: Inter, 'Source Sans Pro';
+}
