@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PREDIKSI HARGA PANGAN</title>
+  
+    <!-- Montserrat font -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    
+</head>
+<body>
+
+    <div class="grid-container">
+
+        <!-- header -->
+        <header class="header">
+        <div class="menu-icon" onclick="openSidebar()">
+            <span class="material-icons-outlined">menu</span>
+        </div>
+        <div class="header-left">
+            <p class="direktorat-stabilisasi-pasokan-dan-harga-pangan-kedeputian-bidang-ketersediaan-dan-stabilisasi-pangan-kmM">
+                DIREKTORAT STABILISASI PASOKAN DAN HARGA PANGAN
+                <br/>
+                KEDEPUTIAN BIDANG KETERSEDIAAN DAN STABILISASI PANGAN
+                </p>
+        </div>
+        <div class="header-right">
+            <span class="material-icons-outlined">notifications</span>
+            <span class="material-icons-outlined">mail</span>
+            <span class="material-icons-outlined">account_circle</span>
+        </div>
+        </header> 
+        <!-- end header -->
+
+        <!-- Sidebar -->
+        <aside id="sidebar">
+            <div class="sidebar-title">
+                <div class="sidebar-brand">
+                    <img class="logo-badan-pangan-nasional" src="./assets/logo-badan-pangan-nasional.png"  width="200px" height="80px">
+                </div>
+                <span class="material-icons-outlined" onclick="closeSidebar()">close</span>
+            </div>
+
+            <ul class="sidebar-list">
+                <li class="sidebar-list-item">
+                    <span class="material-icons-outlined">dashboard</span>Dashboard
+                </li>
+                <li class="sidebar-list-item">
+                    <span class="material-icons-outlined">category</span> Pergerakan Historis
+                </li>
+                <li class="sidebar-list-item">
+                    <span class="material-icons-outlined">compost</span> Visualisasi Data
+                </li>
+                <li class="sidebar-list-item">
+                    <span class="material-icons-outlined">groups</span> Prediksi Model
+                </li>
+                <li class="sidebar-list-item">
+                    <span class="material-icons-outlined">login</span> Input Harga 
+                </li>
+            </ul>
+
+
+        </aside>
+        <!-- end sidebar -->
+
+        <!-- Main -->
+        <main class="main-container">
+            <div class="main-title">
+                <h2>Pergerakan Historis Harga Pangan</h2>
+            </div>
+            
+
+            <div class="main-cards">
+
+                <div class="card">
+                    <div class="card-inner">
+                        <h3>Tipe Komunitas</h3>
+                        <span class="material-icons-outlined">toc</span>
+                    </div>
+                    <select >
+                        <option>Beras Medium</option>
+                        <option>Beras Premium</option>
+                     </select >
+                </div>
+
+                <div class="card">
+                    <div class="card-inner">
+                        <h3>Start Date Range:</h3>
+                        <span class="material-icons-outlined">calendar_month</span>
+                    </div>
+                    <input type="date" name="" max="" id="stardaterange">   
+                </div>
+
+                
+
+                
+                <div class="card">
+                    <div class="card-inner">
+                        <h3>End Date Range:</h3>
+                        <span class="material-icons-outlined">calendar_month</span>
+                    </div>
+                    <input type="date" name="" min="" id="enddaterange"> 
+                </div>
+                <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+                <script type="text/javascript">
+                    var stardaterange;
+                    $('#stardaterange').on('change',function() {
+                        stardaterange = $(this).val();
+                        $('#enddaterange').prop('min',function() {
+                            return stardaterange;
+                            
+                            
+
+                        })
+                        
+                    });
+                    var enddaterange;
+                    $('#enddaterange').on('change',function() {
+                        enddaterange = $(this).val();
+                        $('#enddaterange').prop('max',function() {
+                            return enddaterange;
+
+                        })
+                    });
+                </script>
+                <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
+                <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+                <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+                <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+                
+                <input type="text" name="daterange" value="01/01/2018 - 01/15/2018" />
+
+                <script>
+                $(function() {
+                  $('input[name="daterange"]').daterangepicker({
+                    opens: 'left'
+                  }, function(start, end, label) {
+                    console.log("A new date selection was made: " + start.format('YYYY-MM-DD') + ' to ' + end.format('YYYY-MM-DD'));
+                  });
+                });
+                </script>
+
+                
+
+            </div>
+
+            <div class="charts">
+
+            <div class="charts-card">
+                <h2 class="chart-title">Diagram Harga</h2>
+                <div id="bar-chart"></div>
+            </div>
+
+            <div class="charts-card">
+                <h2 class="chart-title">Grafik prediksi harga pangan</h2>
+                <div id="area-chart"></div>
+            </div>
+
+        </div>
+
+        </main>
+        <!-- End main -->
+
+
+    </div>
+    <!-- Scripts -->
+    <!-- ApexCharts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/3.46.0/apexcharts.min.js" ></script>
+
+    <!-- Custom JS -->
+    <script src="js/scripts.js"></script>
+
+</body>
+</html> 
+
